@@ -23,6 +23,10 @@ const sitemapRoutes = [
 ]
 
 export default defineConfig({
+    server: {
+        allowedHosts: ["*"],
+    },
+    base: "/mulearn/",
     // css: {
     //     postcss: {
     //         plugins: [postcssNesting]
